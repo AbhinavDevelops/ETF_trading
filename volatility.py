@@ -5,7 +5,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # path to csv files
-path = "data_google"
+path = "data"
 
 dataframes = {}
 # calculate volatility for each stock
