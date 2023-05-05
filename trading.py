@@ -128,7 +128,7 @@ def opening_breakout_strategy_native(data, opening_range_minutes, breakout_thres
     # ])
     plt.show()
         
-        # divided by average price to get percent change
+    # return profit if we were trading with a position size of $100
     return profit_loss / np.mean(closing_prices)
 
 
