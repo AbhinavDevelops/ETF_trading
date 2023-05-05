@@ -1,0 +1,54 @@
+script.txt
+
+Slide 1: Title Slide
+
+Slide 2: Introduction
+- we were given historical stock price + volume
+- tasked to create a profitable trading strategy
+- given an etf and its component stocks, and an etf arbitrage strategy could work
+- we felt like we couldn't achieve a profitable strategy, since we didn't have access to all the component stocks
+- instead we opted for a technical trading strategy
+
+Slide 3: Technical Trading Strategy
+- breakout strategy
+    - breakout strategy is a momentum strategy that trades when the price of a stock breaks through a support or resistance level
+    - those who believe in momentum see the tendency for rising asset prices to rise further and falling prices to keep falling
+    - the monkey idea is that if a stock moves up, it will continue to move up
+    - the behavioral finance literature the appearance of momentum is often attributed to cognitive biases from irrational investors such as investor herding, investor over- and under-reaction, and confirmation bias (see Barberis et al., 1998; Daniel et al., 1998).
+    - I like to think of it like inertia for stock prices
+    
+    - to determine our support and resistance levels, we used ORB (Opening Range breakout)
+        - the idea behind ORB is that the first n minutes of a day are significant in determining the day's trading range
+            - market psychology - the opening range is significant and sets the tone for the day
+                - market participatnts have had the night to digest news and events
+                - the first n minutes can be a period of significant volatility, volume and price movement as market participants react to the news
+            - if the price breaks above the opening range, it is a bullish signal since it shows that the price action is strong and the price is likely to continue to move up
+            - if the price breaks below the opening range, it is a bearish signal since it shows that the price action is weak and the price is likely to continue to move down
+            - we use a threshold above & below the opening range to filter out noise & action near the resistance / support
+    - to measure momentum we used RSI (Relative Strength Index)
+        - RSI is a momentum oscillator that measures the speed and change of price movements
+        - RSI oscillates between 0 and 100
+        - RSI is considered overbought when above 70 and oversold when below 30
+        - we use a threshold above & below 70 & 30 to filter out noise & action near the resistance / support
+        - if the RSI is above 70, it is a bullish signal since it shows that the price action is strong and the price is likely to continue to move up
+We wanted to keep our strategy simple and easy to understand since we want to understand what is going on and not just blindly follow a strategy
+We chose it because it is simple and easy to understand
+
+Our hyperparamters for entering a trade:
+1. the time period for the opening range
+2. the threshold above & below the opening range
+3. the time period for the RSI
+4. the threshold above & below 70 & 30
+
+exiting a trade:
+1. we exit a trade when the price crosses the opening range in the opposite direction
+2. moving average crossover - we exit a trade when the short term moving average crosses the long term moving average in the opposite direction
+
+Hyperparameter for exiting a trade:
+1. the time period for the first moving average
+2. the time period for the second moving average
+
+
+Slide 4: Risk management
+1. if volatiltiy is higher, we reduce our position size
+2. if we have asymmetric risk, we increase our position size if momentum is in our favor

@@ -1,0 +1,104 @@
+Anatomy of a breakout strategy
+
+For any given trade, are breakouts above the opening range breakout actually breakouts?
+
+We're creating a presentation presenting a trading algorithm based of opening range breakout and momentum for the confirmation signal. initally, we were data for a etf arbitrage strategy, but we felt that we didn't have the correct data to correctly execute so we instead opted for a completely technical trading strategy. our presentation includes:
+1. an explanation of why the strategy has an edge in the market (psychology)
+2. a reason why we didn't opt for an etf arbitrage strategy.
+3. our results
+4. what indicators we used and why, their weaknesses
+5. a slide on risk and how we considered
+6. what market we're trading (trending vs ranging)
+7. what time frame we're trading
+8. what we're trading (stocks, futures, forex, etc)
+9. what our entry and exit signals are
+10. what our position sizing is
+11. what our risk management is
+12. what our backtesting results are
+13. what our live trading results are
+14. what our future plans are
+
+Trading Algorithm Presentation: Opening Range Breakout and Momentum Strategy
+Introduction
+Brief explanation of the presentation content: This presentation will discuss our trading algorithm, which is based on an opening range breakout and momentum strategy.
+Brief explanation of the trading algorithm: Our algorithm uses technical analysis to identify potential breakout opportunities based on price momentum.
+Why the Strategy Has an Edge in the Market
+Explanation of the psychological factors that give the strategy an edge in the market: The opening range breakout strategy takes advantage of market psychology, which often causes price movements to accelerate after a breakout from a period of consolidation.
+Specific examples of how the strategy has performed well in past market conditions: Our algorithm has been backtested and has demonstrated consistent profitability in various market conditions.
+Why We Chose the Opening Range Breakout and Momentum Strategy
+Explanation of why we chose this strategy: We chose this strategy because it has a proven track record of profitability and is based on sound technical analysis principles.
+Discussion of the advantages of this strategy compared to other strategies: The opening range breakout strategy is relatively simple to implement and is applicable across a range of instruments and timeframes.
+Results
+Presentation of the trading algorithm results: Our algorithm has demonstrated consistent profitability over a specific period of time.
+Examples of the profitability of the algorithm over a specific period of time: Our algorithm has outperformed the market benchmark over the same period.
+Indicators Used and Their Weaknesses
+Explanation of the technical indicators used in the algorithm: Our algorithm uses opening range breakout and momentum indicators to identify potential breakout opportunities.
+Discussion of the weaknesses of each indicator and how they were mitigated: We have adjusted our indicators to account for their weaknesses and to maximize their effectiveness in our strategy.
+Risk Considerations
+Explanation of how risk was considered in the trading algorithm: Our algorithm uses a risk management system to limit losses and preserve capital.
+Discussion of the specific risk management strategies used: Our algorithm uses a stop-loss order to limit potential losses and a position-sizing strategy to manage risk.
+Market Considerations
+Discussion of the market conditions in which the algorithm performs best: Our algorithm performs best in trending markets with significant price movements.
+Explanation of how the algorithm adapts to different market conditions: Our algorithm uses technical analysis to adapt to changing market conditions and to identify potential opportunities.
+Time Frame and Instruments
+Discussion of the specific time frame and instruments used in the algorithm: Our algorithm is designed to work on a range of time frames and instruments, including stocks, futures, and forex.
+Explanation of the decision-making process for selecting the specific time frame and instruments: We selected time frames and instruments based on market conditions and historical performance.
+Entry and Exit Signals
+Explanation of the specific entry and exit signals used in the algorithm: Our algorithm uses opening range breakout and momentum indicators to identify potential breakout opportunities and to confirm signals.
+Discussion of how the signals were tested and refined: We used historical data to test and refine our signals to improve their accuracy and effectiveness.
+Position Sizing
+Explanation of the position sizing strategy used in the algorithm: Our algorithm uses a position-sizing strategy to manage risk and maximize potential profits.
+Discussion of how the team evaluated and adjusted position sizing over time: We adjusted our position-sizing strategy over time to account for changes in market conditions and to improve profitability.
+Backtesting Results
+Presentation of the backtesting results for the algorithm: Our algorithm has been extensively backtested and has demonstrated consistent profitability over a specific period of time.
+Discussion of how the team validated the backtesting results: We validated our backtesting results using historical data and additional testing to confirm the accuracy and effectiveness of our algorithm.
+Live Trading Results
+Presentation of the live trading results for the algorithm: Our algorithm has been deployed in live trading environments and has demonstrated consistent profitability.
+Discussion of how the live trading results compared to the backtesting results: Our live trading results have been consistent with our backtesting results, demonstrating the effectiveness and reliability of our algorithm.
+Future Plans
+Discussion of the team's future plans for the algorithm: Our team plans to continue refining and optimizing our algorithm to improve its performance and profitability.
+Explanation of any improvements or adjustments that the team plans to make to the algorithm: We plan to incorporate additional technical indicators and data points to improve the accuracy of our signals.
+Conclusion
+Summary of the key points covered in the presentation: Our algorithm is based on an opening range breakout and momentum strategy, and has demonstrated consistent profitability in various market conditions.
+Explanation of how the trading algorithm provides an edge in the market, and how it can be used to maximize profitability and minimize risk: Our algorithm takes advantage of market psychology and sound technical analysis principles to identify potential breakout opportunities and manage risk.
+Closing remarks: Thank you for considering our trading algorithm. We believe it has the potential to improve profitability and manage risk in your trading strategy.
+
+Why we chose this strategy
+- Simplicity
+
+meme to add as well
+
+Slide 1:
+Title Slide
+
+Slide 2:
+Introductio
+- Brief explanation of the presentation content
+- We wanted a simple strategy that was easy to understand and implement since we are new to trading
+
+Slide 3:
+Strategy Overview
+- Breakout strategy
+- Opening range breakout to determine support and resistance
+- Momentum to confirm breakout
+    - Indicators for momentum
+        - RSI
+        - MACD
+        - Stochastic
+        - Volume
+    - We chose individual indicator: RSI
+        - Why we chose RSI - history most researched, most widely used, most reliable, easy to understand
+        - Why we didn't choose other indicators
+    
+Slide 4:
+Why the Strategy Has an Edge in the Market
+- Explanation of the psychological factors that give the strategy an edge in the market
+    - Market psychology
+        - People tend to buy when prices are rising and sell when prices are falling
+        - People tend to buy when prices break above resistance and sell when prices break below support
+        - People tend to buy when prices are rising and sell when prices are falling
+        - People tend to buy when prices break above resistance and sell when prices break below support
+    - Opening range breakout strategy takes advantage of market psychology
+        - Price movements tend to accelerate after a breakout from a period of consolidation
+        - Opening range breakout strategy takes advantage of market psychology
+        - Price movements tend to accelerate after a breakout from a period of consolidation

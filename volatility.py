@@ -10,6 +10,8 @@ path = "data"
 dataframes = {}
 # calculate volatility for each stock
 for filename in os.listdir(path):
+    if filename == "VGT.csv" or filename == "IYW.csv" or filename == "SPY.csv":
+        continue
     print(filename)
     df = pd.read_csv(path + "/" + filename)
     # calculate the daily percent change
